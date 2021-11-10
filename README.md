@@ -1,5 +1,7 @@
 # CarND-Controls-PID
-Self-Driving Car Engineer Nanodegree Program
+Implementation of a PID controller in C++ for the Udacity [Self-Driving Car Engineer Nanodegree Program](https://www.udacity.com/course/self-driving-car-engineer-nanodegree--nd0013). 
+
+Starter code taken from the given [GitHub repo](https://github.com/udacity/CarND-PID-Control-Project) for the course. 
 
 ---
 
