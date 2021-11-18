@@ -37,7 +37,7 @@ int main() {
   /**
    * TODO: Initialize the pid variable.
    */
-  double Kp = 0;
+  double Kp = -1.0;
   double Ki = 0;
   double Kd = 0;
   pid.Init(Kp, Ki, Kp);
@@ -67,7 +67,7 @@ int main() {
            * NOTE: Feel free to play around with the throttle and speed.
            *   Maybe use another PID controller to control the speed!
            */
-          
+          pid.UpdateError(cte);
           steer_value = pid.TotalError();
           
           // DEBUG
